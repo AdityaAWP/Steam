@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#43454a"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></Space>
+
+    <ImageView
+        android:layout_width="227dp"
+        android:layout_height="183dp"
+        android:layout_gravity="center"
+        android:src="@drawable/steam"></ImageView>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/rounded"
+        android:paddingLeft="20dp"
+        android:hint="Username"></EditText>
+
+    <EditText
+    android:layout_width="250dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:background="@drawable/rounded"
+        android:hint="Password"
+    android:layout_height="44dp"></EditText>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:background="@drawable/rounded"
+            android:layout_marginLeft="78dp"
+            android:layout_height="wrap_content"></CheckBox>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Remember my password"
+            android:textColor="#d1d1d1"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="116dp"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:textColor="#d1d1d1"
+            android:text="Login"
+            android:background="@drawable/ronded2"
+            android:layout_marginLeft="78dp"></Button>
+        <Button
+            android:layout_width="116dp"
+            android:textAllCaps="false"
+            android:text="Cancel"
+            android:textColor="#d1d1d1"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rounded3"
+            android:layout_height="50dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="78dp"
+            android:textColor="#d1d1d1"
+            android:text="Create Account"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="#d1d1d1"
+            android:text="Forgot Password ?"></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
